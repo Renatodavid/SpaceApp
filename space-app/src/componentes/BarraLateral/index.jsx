@@ -5,7 +5,18 @@ const ListaEstilizada = styled.ul`
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 236px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 const BarraLateral = () => {

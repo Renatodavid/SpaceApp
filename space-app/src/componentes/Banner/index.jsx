@@ -9,8 +9,17 @@ const FigureEstilizada = styled.figure`
     min-height: 328px;
     margin: 0;
     border-radius: 20px;
-    max-width: 100%;
+    max-width: 95%;
     background-size: cover;
+    
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 const TituloEstilizado = styled.h1`
@@ -20,9 +29,17 @@ const TituloEstilizado = styled.h1`
     color: #FFFFFF;
     max-width: 300px;
     padding: 0 64px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
-const Banner = ({texto, backgroundImage}) => {
+const Banner = ({ texto, backgroundImage }) => {
     return (<FigureEstilizada $backgroundImage={backgroundImage}>
         <TituloEstilizado>{texto}</TituloEstilizado>
     </FigureEstilizada>)

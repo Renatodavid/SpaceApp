@@ -156,6 +156,10 @@ template {
 [hidden] {
   display: none;
 }
+@media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export default EstilosGlobais
