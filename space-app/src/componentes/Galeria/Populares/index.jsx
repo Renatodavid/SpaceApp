@@ -25,15 +25,6 @@ const Botao = styled.button`
     cursor: pointer;
     width: 100%;
     margin-top: 16px;
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: center;
-    }
-    @media screen and (max-width: 480px) {
-        flex-direction: column;
-        align-items: center;
-    }
-    
 `;
 
 const Populares = () => {

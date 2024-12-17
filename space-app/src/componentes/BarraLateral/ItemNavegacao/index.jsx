@@ -10,15 +10,6 @@ const ItemListaEstilizado = styled.li`
     display: flex;
     align-items: center;
     gap: 22px;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: center;
-    }
-    @media screen and (max-width: 480px) {
-        flex-direction: column;
-        align-items: center;
-    }
 `
 
 const ItemNavegacao = ({children, iconeAtivo, iconeInativo, ativo = false}) => {

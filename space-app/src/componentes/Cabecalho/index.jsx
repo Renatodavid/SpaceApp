@@ -8,10 +8,6 @@ const HeaderEstilizado = styled.header`
     img {
         max-width: 212px;
     }
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: center;
-    }
 `
 
 const Cabecalho = () => {

@@ -27,15 +27,6 @@ const Tag = styled.button`
     &:hover {
       border-color: #C98CF1;
     }
-    @media screen and (max-width: 768px) {
-        max-width: 100%;
-    }
-    @media (min-width: 1200px) {
-        width: 60%;
-    }
-    @media (min-width: 768px) {
-        width: 80%;
-    }
 `
 
 const Div = styled.div`

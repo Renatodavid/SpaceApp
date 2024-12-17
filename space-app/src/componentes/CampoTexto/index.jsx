@@ -20,10 +20,6 @@ const CampoTextoEstilizado = styled.input`
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: center;
-    }
 `
 
 const IconeLupa = styled.img`
@@ -32,10 +28,6 @@ const IconeLupa = styled.img`
     right: 10px;
     width: 38px;
     height: 38px;
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: center;
-    }
 `;
 
 const CampoTexto = (props) => {
